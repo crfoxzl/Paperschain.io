@@ -1,0 +1,30 @@
+{
+  "name": "paperschain",
+  "version": "1.0.0",
+  "description": "Blockchain Journal",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && sexit 1"
+  },
+  "author": "Kevin Hong",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "4.1.3",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "lite-server": "^2.4.0",
+    "nodemon": "^1.17.3",
+    "truffle": "5.0.2",
+    "truffle-contract": "3.0.6"
+  },
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
